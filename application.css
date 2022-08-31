@@ -4,5 +4,12 @@ body {
 
     font-family:'Segoe UI';
     line-height: 1.5;
+    background: #FFC0CB;
 
+}
+
+main {
+
+    background: #f977777d;
+    margin-left: 50;
 }
