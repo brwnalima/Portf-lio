@@ -1,13 +1,25 @@
+
+.checkinbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+
+.checkinbox-container {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
 body {
     width: 90%;
     max-width: 800px;
 
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
-    background: #FFC0CB;
+    background: #fde5e5;
     margin: auto;
-    
-
 }
 
 main {
@@ -50,8 +62,8 @@ hr {
     width: 50%;
     margin-top: 3rem;
     display: flex;
-    margin-bottom: 3rem;
-    
+    margin-bottom: 3rem;   
+    margin: 50px 70px;
 }
 
 .footer-main a {
@@ -64,5 +76,8 @@ hr {
     align-items: center;
     justify-content: center;
     transition: .5s ease-in-out;
-    
+}
+
+a:hover {
+    background-color: #fde5e5;
 }
