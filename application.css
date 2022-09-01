@@ -31,6 +31,7 @@ hr {
 .aluna img {
     width: 25%;
     border-radius: 1000px;
+    margin-top: 20px;
 }
 
 .nome {
@@ -43,4 +44,21 @@ hr {
 
 .texto {
     text-justify: auto;
+}
+
+.footer-main {
+    width: 50%;
+    margin-top: 3rem;
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.footer-main a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem 4rem;
+    border: 1px solid black;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
 }
