@@ -51,6 +51,7 @@ hr {
     margin-top: 3rem;
     display: flex;
     margin-bottom: 3rem;
+    
 }
 
 .footer-main a {
@@ -61,4 +62,7 @@ hr {
     min-width: 4rem;
     display: flex;
     align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+    
 }
