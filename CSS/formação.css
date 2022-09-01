@@ -9,4 +9,29 @@ body {
     line-height: 1.5;
     background: #fde5e5;
     margin: auto;
+    
+    
+}
+
+main {
+
+    background: #f977777d;
+    padding: 5px 40px;
+    margin-top: 30px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+#h1p {
+
+    text-shadow: whitesmoke;
+    text-align: center;
+
+}
+
+.texto-principal {
+
+    top: 0%;
+    align-content: 0px 0px;
+    margin-right: 0%;
 }
