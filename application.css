@@ -2,10 +2,10 @@ body {
     width: 90%;
     max-width: 800px;
 
-    font-family:'Segoe UI';
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
     background: #FFC0CB;
-    margin: 30px;
+    margin: auto;
     
 
 }
@@ -16,6 +16,7 @@ main {
     padding: 5px 40px;
     margin-top: 30px;
     border-radius: 30px;
+    margin-bottom: 50px;
 }
 
 hr {
@@ -38,4 +39,8 @@ hr {
 
 #funções {
     text-align: center;
+}
+
+.texto {
+    text-justify: auto;
 }
