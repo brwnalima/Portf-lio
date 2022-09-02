@@ -1,39 +1,54 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-.checkinbox {
+.cabeça {
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
 
-.checkinbox-container {
+.cabeça-container {
     margin-top: 10px;
     right: 0;
     top: 3;
+    font-size: 14px;
 }
 
 body {
     width: 90%;
     max-width: 800px;
-    font-family: Poppins, sans-serif;
+    font-family: Poppins;
     line-height: 1.5;
-    background: #fde5e5;
+    background-color:#fde5e5;
     margin: auto;
+    font-size: 16px;
 
 }
 
-h2 .nome {
+#olá {
+
+    margin-bottom: 0px;
+}
+
+.subdosub {
+
+    margin-top: 0px;
+
+}
+
+.nome {
 
     font-family: Poppins, Black900;
-    width: 30%;
+    font-size: 35px;
 }
+
 
 main {
 
-    background: #f977777d;
+    background-color: #f977777d;
     padding: 5px 40px;
     margin-top: 30px;
     border-radius: 30px;
@@ -53,6 +68,8 @@ hr {
     width: 25%;
     border-radius: 1000px;
     margin-top: 20px;
+    border-style: solid;
+    border-color: black;
 }
 
 .nome {
@@ -91,3 +108,9 @@ hr {
 a:hover {
     background-color: #fde5e5;
 }
+
+#footer-frase {
+    font-size: 11px;
+    text-align: center;
+}
+

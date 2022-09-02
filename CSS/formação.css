@@ -7,9 +7,9 @@ body {
     max-width: 800px;
     font-family: Poppins, sans-serif;
     line-height: 1.5;
-    background: #fde5e5;
+    background-color: #fde5e5;
     margin: auto;
-    
+    font-size: 16px;
     
 }
 
@@ -24,14 +24,13 @@ main {
 
 #h1p {
 
-    text-shadow: whitesmoke;
+    border-width: 10%;
     text-align: center;
+
 
 }
 
-.texto-principal {
-
-    top: 0%;
-    align-content: 0px 0px;
-    margin-right: 0%;
+#form-footer {
+    font-size: 11px;
+    text-align: center;
 }
