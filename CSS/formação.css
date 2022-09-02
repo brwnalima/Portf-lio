@@ -5,6 +5,7 @@ body {
 
     width: 90%;
     max-width: 800px;
+    min-width: 340px;
     font-family: Poppins, sans-serif;
     line-height: 1.5;
     background-color: #fde5e5;
@@ -20,6 +21,7 @@ main {
     margin-top: 30px;
     border-radius: 30px;
     margin-bottom: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.204);
 }
 
 #h1p {

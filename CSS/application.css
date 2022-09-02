@@ -3,60 +3,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+
+:root {
+    --cor1: #fde5e5;
+    --cor2: #f977777d;
+}
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    
+}
+
 .cabeça {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--cor2);
+    font-size: 50px;
+    font-family: Poppins;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.204);
+
+    
     
 }
 
-.cabeça-container {
-    margin-top: 10px;
-    right: 0;
-    top: 3;
-    font-size: 14px;
+.menu {
+    
+    text-align: center;
+    font-size: 12px;
+    background-color:aliceblue;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.204);
+    
 }
 
 body {
-    width: 90%;
+
+    width: 100%;
     max-width: 800px;
+    min-width: 320px;
     font-family: Poppins;
     line-height: 1.5;
-    background-color:#fde5e5;
-    margin: auto;
     font-size: 16px;
+    margin:auto;
+    background-color:aliceblue;
+    
 
+}
+
+main {
+
+    background-color: var(--cor2) ;
+    padding: 5px 40px;
+    margin-top: 30px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.204);
+    margin: auto;
+    margin-top: 35px;
+    
+    
 }
 
 #olá {
 
-    margin-bottom: 0px;
+    margin-top: 30px;
 }
 
-.subdosub {
 
-    margin-top: 0px;
-
-}
 
 .nome {
 
     font-family: Poppins, Black900;
     font-size: 35px;
-}
-
-
-main {
-
-    background-color: #f977777d;
-    padding: 5px 40px;
-    margin-top: 30px;
-    border-radius: 30px;
-    margin-bottom: 50px;
+    margin-top: 15px;
 }
 
 hr {
     color: black;
+    margin-top: 20px;
 }
 
 .aluna {
@@ -82,6 +111,7 @@ hr {
 
 .texto {
     text-justify: auto;
+    margin-top: 30px;
 }
 
 .footer-main {
@@ -102,6 +132,7 @@ hr {
     align-items: center;
     justify-content: center;
     transition: .5s ease-in-out;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.156);
 
 }
 
