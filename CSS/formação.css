@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap');
 
+
 body {
 
     width: 90%;
@@ -35,4 +36,5 @@ main {
 #form-footer {
     font-size: 11px;
     text-align: center;
+    margin-top: 100%;
 }

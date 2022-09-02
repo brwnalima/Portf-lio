@@ -113,13 +113,6 @@ hr {
     margin-top: 30px;
 }
 
-.main-f {
-
-    margin: auto;
-
-}
-
-
 .footer-main {
     width: 50%;
     margin-top: 3rem;
@@ -150,5 +143,7 @@ a:hover {
 #footer-frase {
     font-size: 11px;
     text-align: center;
+    margin-top: 5%;
+    
 }
 
