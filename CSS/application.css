@@ -1,6 +1,8 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,700;1,400&family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap');
+
 
 :root {
     --cor1: #ffffff;
@@ -49,6 +51,7 @@ header p {
     border-radius: 9px;
     border-style: outset;
     border: 15%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.804);
     
     text-align: center;
     width: 140px;
@@ -82,6 +85,7 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.204);
     margin: auto;
     margin-top: 35px;
+   
     
     
 }
@@ -153,6 +157,7 @@ hr {
     margin-top: 30px;
     color: var(--cor1);
     letter-spacing: 1px;
+
     
     
 }
@@ -191,6 +196,6 @@ a:hover {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 0%;
-    
+    font-family: 'Bebas Neue';
 }
 
