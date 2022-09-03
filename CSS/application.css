@@ -41,20 +41,22 @@ header p {
     letter-spacing: 1.5px;
 }
 
-aadada
-
 
 #logo {
 
     background-color:var(--cor1);
     border-color: var(--cor1);
-    border-radius: 2px;
+    border-radius: 9px;
+    border-style: outset;
+    border: 15%;
+    
+    text-align: center;
+    width: 140px;
     letter-spacing: 0px;
     color: var(--cor2);
     font-family: 'Bangers';
     font-size: 60px;
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0); 
-    
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0);  
 }
 
 body {
@@ -161,6 +163,7 @@ hr {
     display: flex;
     margin-bottom: 3rem;  
     margin: 50px 70px;
+    
 }
 
 .footer-main a {
@@ -174,6 +177,7 @@ hr {
     justify-content: center;
     transition: .5s ease-in-out;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.156);
+    
 
 }
 
