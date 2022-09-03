@@ -3,11 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,700;1,400&family=Lora:ital@1&display=swap');
 
 :root {
-    --cor1: #fde5e5;
-    --cor2: #005958;
-    --cor3: #f0f8ff;
+    --cor1: #ffffff;
+    --cor2: #033E66;
+    --cor3: #ffffff;
     --cor4: #003B3A;
     --cor5: #000000;
+    --cor6: #022F4D;
 
 }
 
@@ -33,10 +34,24 @@
 }
 
 header p {
-    color: var(--cor3);
+    color: var(--cor1);
     font-size: 50px;
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.495);
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.597);
     letter-spacing: 1.5px;
+}
+
+#logo {
+
+    background-color:var(--cor1);
+    border-color: var(--cor1);
+    border-radius: 2px;
+    letter-spacing: 0px;
+    color: var(--cor2);
+    font-family: 'Bangers';
+    font-size: 60px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0); 
+    
 }
 
 body {
@@ -48,7 +63,7 @@ body {
     line-height: 1.5;
     font-size: 16px;
     margin:auto;
-    background-color: var(--cor3);
+    background-color: var(--cor1);
 
 }
 
@@ -69,37 +84,36 @@ main {
 #olá {
 
     margin-top: 30px;
-    color: var(--cor3);
     font-family: 'Libre Baskerville', serif;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.495);
-    
-    letter-spacing: 1.5px;
+    color: var(--cor1);
+    letter-spacing: 1px;
     
 }
 
 .subdosub {
-    color: var(--cor3);
+    
     font-family: 'Libre Baskerville', serif;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.495);
+    color: var(--cor1);
+    letter-spacing: 1px;
     
-    letter-spacing: 1.5px;
-    line-height: 0.1px;
     
 }
 
 .nome {
 
-    font-family: 'Bebas Neue', cursive;
-    font-size: 35px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
     margin-top: 15px;
-    color: var(--cor3);
+    color: black;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.495);
     letter-spacing: 1.5px;
     
 }
 
 hr {
-    color: var(--cor4);
+    color: var(--cor1);
     margin-top: 20px;
 }
 
@@ -113,7 +127,7 @@ hr {
     border-radius: 1000px;
     margin-top: 20px;
     border-style: solid;
-    border-color: var(--cor5);
+    border-color: var(--cor1);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.495);
 
 }
@@ -126,12 +140,15 @@ hr {
 #funções {
     text-align: center;
     font-family: Bebas Neue;
+    letter-spacing: 0.5px;
 }
 
 .texto {
     text-justify: auto;
     margin-top: 30px;
-    color: var(--cor3);
+    color: var(--cor1);
+    letter-spacing: 1px;
+    
     
 }
 
@@ -147,7 +164,7 @@ hr {
     text-decoration: none;
     color: black;
     padding: 1rem 4rem;
-    border: 1px solid black;
+    border: 1px solid var(--cor5);
     min-width: 4rem;
     display: flex;
     align-items: center;
@@ -158,7 +175,7 @@ hr {
 }
 
 a:hover {
-    background-color: var(--cor3);
+    background-color: var(--cor1);
     
 }
 
