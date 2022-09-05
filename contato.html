@@ -13,11 +13,15 @@
 
     <main> 
 
-        <form>
-            <p>Nome Completo: <input type="text" name="" id=""> </p>
-            <p>Contato:</p>
-            <p>E-mail:</p>
-            <p>Mensagem:</p>
+        <form autocomplete="off">
+            <p><label for="inome">Nome Completo:</label> 
+                <input type="text" name="nome" id="inome"> </p>
+            <p><label for="icontato">Contato:</label> 
+                <input type="tel" name="contato" id="icontato"> </p>
+            <p><label for="iemail">E-mail:</label> 
+                <input type="email" name="email" id="iemail"> </p>
+            <p><label for="imsg">Mensagem:</label> 
+                <input type="text" name="msg" id="imsg"> </p>
 
             <p> <input type="submit" value="Enviar"> </p>
 
