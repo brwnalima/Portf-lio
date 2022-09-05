@@ -36,7 +36,7 @@ main {
 
     background: var(--cor1);
     padding: 5px 40px;
-    margin-top: 20px;
+    margin-top: 50px;
     border-radius: 30px;
     margin-bottom: 50px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.204);
@@ -45,7 +45,19 @@ main {
 h1 {
 
     text-align: center;
-    font-family: 'Lora';
+    font-family: 'Libre Baskerville', serif;
+    color: var(--cor5);
+}
+
+.mini-titulo {
+
+    text-align: center;
+    font-family: 'Poppins';
+    color: var(--cor5);
+    text-shadow: none;
+    margin-bottom: 5%;
+    font-size: 15px;
+
 }
 
 #inome, #icontato, #iemail {
