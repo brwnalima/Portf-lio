@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,700;1,400&family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap');
+
+
+:root {
+    --cor1: #ffffff;
+    --cor2: #033E66;
+    --cor3: #ffffff;
+    --cor4: #003B3A;
+    --cor5: #000000;
+    --cor6: #022F4D;
+
+}
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+
+    width: 50%;
+    max-width: 800px;
+    min-width: 340px;
+    font-family: Poppins, sans-serif;
+    line-height: 1.5;
+    background-color: var(--cor2);
+    margin: auto;
+    font-size: 16px;
+    
+}
+
+main {
+
+    background: var(--cor1);
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.204);
+}
+
+h1 {
+
+    text-align: center;
+    font-family: 'Lora';
+}
+
+#inome, #icontato, #iemail {
+
+    height: 15px;
+    width: 200px;
+    margin: 5px;
+
+}
+
+#imsg {
+
+   height: 100px;
+   width: 400px;
+   margin: 5px;
+   margin-bottom: 15px;
+   min-width: 40px;
+   max-width: 800px;
+   display: flexbox;
+}
+
+
+
+#send {
+
+    width: 40%;
+   
+}
