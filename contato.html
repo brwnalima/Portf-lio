@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+
+    <link rel="stylesheet" href="CSS/contato.css">
 </head>
 
 <body>
@@ -13,6 +15,11 @@
 
     <main> 
 
+
+        <h1>ENTRE CONTATO</h1>
+        <p class="mini-titulo">Preencha o formulário e envie sua mensagem abaixo.</p>
+
+
         <form autocomplete="off">
             <p><label for="inome">Nome Completo:</label> 
                 <input type="text" name="nome" id="inome"> </p>
@@ -20,17 +27,27 @@
                 <input type="tel" name="contato" id="icontato"> </p>
             <p><label for="iemail">E-mail:</label> 
                 <input type="email" name="email" id="iemail"> </p>
-            <p><label for="imsg">Mensagem:</label> 
+            <p class="msg"><label for="imsg">Mensagem:</label> 
+                <br>
                 <input type="text" name="msg" id="imsg"> </p>
 
-            <p> <input type="submit" value="Enviar"> </p>
+            <p> <input type="submit" id="send" value="Enviar"> </p>
 
         </form>
 
+        <br>
+
+        <div id="voltar">
+            <nav class="voltar-botao">
+                <a href="index.html" target="_blank"> <img src="images/25618.png" alt="Voltar"> </a>
+            </nav>
+        </div>
 
     </main>
 
-    <footer> </footer>
+    <footer>
+        <p id="form-footer">Site criado por Bruna Lima.</p>
+    </footer>
 
 
 </body>
