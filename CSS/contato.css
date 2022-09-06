@@ -71,13 +71,14 @@ h1 {
 
 #imsg {
 
-   height: 100px;
-   width: 400px;
+   height: 15px;
+   width: 200px;
    margin: 5px;
    margin-bottom: 15px;
    min-width: 40px;
    max-width: 800px;
-   display: flexbox;
+   display: flex;
+   
 }
 
 
