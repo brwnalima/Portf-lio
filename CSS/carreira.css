@@ -93,7 +93,7 @@ a:hover {
 }
 
 
-#footer {
+#form-footer {
     font-size: 11px;
     text-align: center;
     margin-top: 5%;
@@ -101,5 +101,6 @@ a:hover {
     color: var(--cor1);
     font-family: 'Bebas Neue';
     letter-spacing: 0.2px;
+    margin: auto;
 }
 
